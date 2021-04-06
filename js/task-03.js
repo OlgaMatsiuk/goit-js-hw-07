@@ -20,10 +20,6 @@ const images = [
   const makeImagesFun=array=>array.map(item=>{
     const itemImg=document.createElement('li');
     itemImg.classList.add('galler');
-    // const imageEl=document.createElement('img');
-    // imageEl.src=item.url;
-    // imageEl.alt=item.alt;
-    // itemImg.appendChild(imageEl);
     itemImg.insertAdjacentHTML("afterbegin",`<img src=${item.url} alt=${item.alt} width='370'>`);
     return itemImg;
     console.log(itemImg);

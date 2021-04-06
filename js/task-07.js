@@ -4,5 +4,4 @@ input.addEventListener('input',onInputRange);
 function onInputRange(event) {
     span.style.fontSize=event.currentTarget.value + 'px';
     console.log(event);
-
 }
